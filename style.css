@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background: url(images/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    align-items: center;
+}
+header h1{
+    font-size: 45px;
+    color: #ff3479;
+}
+header h2{
+
+}
+header p{  
+    padding: 20px 0;
+    color: #333;
+}
+.btn-main{
+    background: #ff3479;
+    border: none;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+}
+.half{
+    width: 40%;
+}
+.half img{
+    max-width: 70%;
+}
+
+.biography{
+    background: url(images/biography-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.biography h2{
+
+}
+.biography p{  
+    padding: 20px 0;
+    color: #333;
+}
+
+.work{
+    padding: 50px 0;
+    width: 100%;
+    background: url(images/latest-work-bg.png);
+}
+.work h2{
+    text-align: center;
+}
+.work img{
+    max-width: 100%;
+}
+.work .gallery{
+    padding: 50px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.work .box{
+    width: 20%;
+    margin: 0 20px;
+    box-shadow: gray 5px 5px 20px;
+}
+
+footer{
+    padding: 50px 0;
+    text-align: center;
+}
+footer h2{
+    padding: 40px 0;
+}
+.client{}
+.client h4{}
+.client h5{
+    color: #424242;
+    padding: 10px 0;
+}
+.client p{padding-bottom: 50px;padding-top: 15px;}
+
+.mail-box{
+    background: #ff3479;
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.mail-box h5{}
+.mail-box h3{
+    padding: 10px 0;
+}
+.legal{}
+.legal p{
+    text-align: center;
+    padding: 25px 0;
+}
